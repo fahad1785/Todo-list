@@ -15,5 +15,7 @@ COPY . .
 EXPOSE 3000
 
 # Step 6: Define the default command to start your app
-CMD ["npm", "start"]
+# Step 6: Define the default command to start your app
+CMD ["node", "app.js"]
+
 
